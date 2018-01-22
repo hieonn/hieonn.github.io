@@ -1,10 +1,10 @@
-
 {
-	"recommendedAppVersion": "0.0.3",
-	"undercheck": "N",
-	"undercheckmessage": "\uc8c4\uc1a1\ud569\ub2c8\ub2e4. \uc2dc\uc2a4\ud15c \uc810\uc810\uc911\uc785\ub2c8\ub2e4. \uc810\uac80\uc2dc\uac04 : 02:00~06:00. \uc885\ub8cc\uc2dc\uac04\uc740 \ubcc0\uacbd\ub420 \uc218 \uc788\uc73c\ub2c8 \uc591\ud574 \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4.",
+	"recommendedAppVersion": "3",
+	"undercheck": "Y",
+	"undercheckmessage": "현재 서버폭주로 인하여, 점검 중입니다. 예상 복구 시간 : 지금으로부터 3시간 후",
 	"noticeVersion": "1",
 	"languages": ["ko"],
-	"app": "yoyou", 
-	"say" : "We've prepared for you in ths winter"
+	"app": "YOYOU",
+	"say" : "We've prepared for you in ths winter",
+	"cloud_only_mode" : "Y"
 }
