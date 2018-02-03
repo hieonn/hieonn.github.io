@@ -2,6 +2,7 @@
 	"recommendedAppVersion": "3",
 	"recommendediOSAppVersion": "1",
     "forceUpdate" : "Y",
+    "forceUpdateiOS" : "Y",
 	"undercheck": "Y",
 	"undercheckmessage": "현재 서버폭주로 인하여, 점검 중입니다. 예상 복구 시간 : 지금으로부터 3시간 후",
 	"noticeVersion": "1",
