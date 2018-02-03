@@ -1,14 +1,14 @@
 {
 	"recommendedAppVersion": "3",
-	"recommendediOSAppVersion": "3",
-    "forceUpdate" : "N",
-	"undercheck": "N",
+	"recommendediOSAppVersion": "1",
+    "forceUpdate" : "Y",
+	"undercheck": "Y",
 	"undercheckmessage": "현재 서버폭주로 인하여, 점검 중입니다. 예상 복구 시간 : 지금으로부터 3시간 후",
 	"noticeVersion": "1",
 	"languages": ["ko"],
 	"app": "YOYOU",
 	"say" : "We've prepared for you in ths winter",
 	"saypush" : "자니? 오늘 하루 수고했어.",
-	"cloud_only_mode" : "N",
+	"cloud_only_mode" : "Y",
 	"curr_in_ios_review_version" : "1"
 }
