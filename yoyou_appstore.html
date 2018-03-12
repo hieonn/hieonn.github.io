@@ -6,15 +6,30 @@
 
 <body>
     <script>
-        $(document).ready(function () {
-            if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
-                window.location.href = 'market://details?id=com.handsome.stylerun';
+
+        function getMobileOperatingSystem() {
+            var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+
+            if (varUA.match('android') != null) {
+                return 'Android';
+            } else if (varUA.indexOf("iphone") > -1 || varUA.indexOf("ipad") > -1 || varUA.indexOf("ipod") > -1) {
+                return 'iOS';
             }
-            if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
-                window.location.href = 'itms-apps://itunes.apple.com/app/id1342124306';
+            return "unknown";
+        }
+
+        function movetostore() {
+            if (getMobileOperatingSystem() == "Android") {
+                window.location.href = "market://details?id=com.handsome.stylerun";
+            } else if (getMobileOperatingSystem() == "iOS") {
+                window.location.href = "itms-apps://itunes.apple.com/app/id1342124306";
+            } else {
+                window.location.href = "https://yoyou.us";
             }
-            window.location.href = 'https://yoyou.us';
-        });
+
+            $(document).ready(function () {
+                movetostore();
+            });
     </script>
 </body>
 
