@@ -1,6 +1,6 @@
 {
-	"recommendedAppVersion": "3",
-	"recommendediOSAppVersion": "3",
+	"recommendedAppVersion": "6",
+	"recommendediOSAppVersion": "6",
 	"forceUpdate" : "N",
 	"forceUpdateiOS" : "N",
 	"undercheck": "N",
@@ -8,7 +8,7 @@
 	"noticeVersion": "1",
 	"languages": ["ko"],
 	"app": "YOYOU",
-	"say" : "아무리 추워도 너는 반짝반짝 빛날거야",
+	"say" : "봄바람 휘날리며~ 너의 예쁨도 휘날리며~",
 	"saypush" : "자니? 오늘 하루 수고했어.",
 	"cloud_only_mode" : "N",
 	"curr_in_ios_review_version" : "7"
